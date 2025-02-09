@@ -11,9 +11,10 @@
     tools:context=".MainActivity">
 
     <tr.xip.errorview.ErrorView
-        android:id="@+id/error_view"
+        android:id="@+id/errorView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:ev_errorSubtitle="@string/error_subtitle_failed_one_more_time"
-        app:ev_retryButtonTextColor="@color/apptheme_accent" />
+        app:ev_imageSize="120dp"
+        app:ev_retryColor="@color/apptheme_accent"
+        app:ev_subtitle="Something went terribly wrong!" />
 </RelativeLayout>
